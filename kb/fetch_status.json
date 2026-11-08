@@ -1,0 +1,302 @@
+{
+  "uae_ai_strategy_2031": {
+    "title": "UAE National Strategy for Artificial Intelligence 2031",
+    "url": "https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031.pdf",
+    "file": "UAE/UAE_National_AI_Strategy_2031.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 13543206,
+    "sha256": "79e05c502d1fc1247165fc744205984675d6422a490a70201dc4c05bf9aed693",
+    "checked_at": "2026-11-08T23:13:59+00:00"
+  },
+  "uae_ai_charter_2024": {
+    "title": "The UAE Charter for the Development and Use of Artificial Intelligence",
+    "url": "https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-Jul-EN.pdf",
+    "file": "UAE/UAE_AI_Charter_2024.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 10523602,
+    "sha256": "77a3c54976de490d016dd11e91d74cead1a6f7c4e7199d918056e0bbf520fa17",
+    "checked_at": "2026-11-08T23:13:59+00:00"
+  },
+  "uae_smart_health_ai_policy_2026": {
+    "title": "National Policy for the Promotion of Smart Health Services and Artificial Intelligence in the UAE Health Sector",
+    "url": "https://uaelegislation.gov.ae/en/policy/details/national-policy-for-the-promotion-of-smart-health-services-and-artificial-intelligence-in-the-uae-health-sector",
+    "file": "UAE/UAE_Smart_Health_AI_Policy_2026.html",
+    "status": "pending",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "uae_pdpl_2021": {
+    "title": "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (PDPL)",
+    "url": "https://uaelegislation.gov.ae/en/legislations/1972/download",
+    "file": "UAE/UAE_PDPL_Decree_Law_45_2021.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 194597,
+    "sha256": "d5d5f9e93bd6c0dc2afe79776f3101bcd599e4400a67309bc0b378b2812bcf3a",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "uae_ict_health_law_2019": {
+    "title": "Federal Law No. 2 of 2019 Concerning the Use of ICT in Health Fields",
+    "url": "https://uaelegislation.gov.ae/en/legislations/1209/download",
+    "file": "UAE/UAE_ICT_Health_Law_2_2019.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 94629,
+    "sha256": "364c455db192c3c7ba7244eb398d2c869a18663ba050de1e1a5ef92e526c941f",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "doh_ai_policy_2018": {
+    "title": "Policy on Use of Artificial Intelligence in the Healthcare Sector of the Emirate of Abu Dhabi",
+    "url": "https://www.doh.gov.ae/-/media/E9C1470A575146B18015DEBE57E47F8D.ashx",
+    "file": "UAE/DoH_AI_Policy_2018.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 276924,
+    "sha256": "3d567f05e6bf05bc102d4fd7424e556e9cafcc975a9785c2071d01134bc2d7c2",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "doh_rai_standard_2025": {
+    "title": "DoH Responsible Artificial Intelligence (AI) Standard, DoH/ST/DDGO/RAI/V1/2025",
+    "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2025/Responsible-AI-Standard-V1.ashx",
+    "file": "UAE/DoH_Responsible_AI_Standard_2025.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 490537,
+    "sha256": "5e03adb731620ed5013e7fbefa0502603338c762e9995da547e69e7f5243d97d",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "doh_rai_rmp_2025": {
+    "title": "DoH Responsible AI Risk Management Protocol, DoH/Protocol/DDGO/RALRM/V1/2025",
+    "url": "https://www.doh.gov.ae/-/media/8BD7C5DEC5974781B4C11BA00964B6F7.ashx",
+    "file": "UAE/DoH_Responsible_AI_Risk_Management_Protocol_2025.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 608634,
+    "sha256": "6d685169cd93094f56180d90cd8f21c8f8f8abd39bb06bc82d54868d429992ae",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "dha_ai_policy_2021": {
+    "title": "DHA Policy for Use of Artificial Intelligence in the Healthcare in the Emirate of Dubai (DHA/HISHD/PP-09)",
+    "url": "https://dha.gov.ae/uploads/082022/Artificial%20Intelligence%20Policy20228457.pdf",
+    "file": "UAE/DHA_AI_Policy_2021.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 276863,
+    "sha256": "8cae3f61d58523f7f41bc85ea9531ba5dd0a78b3a084d90dd94025f30cef1ffd",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "dha_telehealth_v4_2025": {
+    "title": "DHA Standards for Telehealth Services, Version 4 (DHA/HRS/HPSD/ST-14)",
+    "url": "https://www.dha.gov.ae/uploads/012023/Standards%20for%20Telehealth%20Services2023158613.pdf",
+    "file": "UAE/DHA_Telehealth_Standards_v4_2025.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 795411,
+    "sha256": "183d2dad8092b46f06ceb6e1fdcdb4d3e289d59dbe1108bbca4d045983a8ce84",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "adhics_v2_2024": {
+    "title": "Abu Dhabi Healthcare Information and Cyber Security Standard (ADHICS) V2",
+    "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/ADHICS-v2-standard.ashx",
+    "file": "UAE/ADHICS_v2_2024.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 3834582,
+    "sha256": "1593e14f05cb9741200ead46787d1887cdba2f7443f193598d65c985b72f0661",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "uae_medical_products_law_2024": {
+    "title": "Federal Decree-Law No. 38 of 2024 Governing Medical Products, Pharmacists and Pharmaceutical Establishments",
+    "url": "https://uaelegislation.gov.ae/en/legislations/2751/download",
+    "file": "UAE/UAE_Medical_Products_Decree_Law_38_2024.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 751015,
+    "sha256": "5d8f317a4fe32a0b64d49666ff70dcb8db924037490c3cfca29371fa3617bea0",
+    "checked_at": "2026-11-08T23:14:00+00:00"
+  },
+  "uae_ede_establishment_2023": {
+    "title": "Federal Decree-Law No. 28 of 2023 Establishing the Emirates Drug Establishment",
+    "url": "https://uaelegislation.gov.ae/en/legislations/2122/download",
+    "file": "UAE/UAE_EDE_Decree_Law_28_2023.pdf",
+    "status": "pending",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "uae_senior_emiratis_law_2019": {
+    "title": "Federal Law No. 9 of 2019 on the Rights of Senior Emiratis",
+    "url": "https://www.uaelegislation.gov.ae/en/legislations/1481/download",
+    "file": "UAE/UAE_Senior_Emiratis_Law_9_2019.html",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 697259,
+    "sha256": "daa405ebbdfec33493c27b94aa06bb1ad814f1e190457b8b7b0406572a3fb6db",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "uae_pod_law_2006": {
+    "title": "Federal Law No. 29 of 2006 Concerning the Rights of Persons with Special Needs (People of Determination), as amended",
+    "url": "https://www.uaelegislation.gov.ae/en/legislations/1172/download",
+    "file": "UAE/UAE_People_of_Determination_Law_29_2006.html",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 712274,
+    "sha256": "bca2047efe91608736d6bcc615acfdcf58515bdc0607863dcc4a477eb5961d58",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "tdra_type_approval_policy_v4_2026": {
+    "title": "TDRA Policy, Type Approval Regime for Telecommunications Equipment, Version 4.0",
+    "url": "https://tdra.gov.ae/-/media/About/Type-approval-PDF/Type-Approval-Policy-V4-EN.ashx",
+    "file": "UAE/TDRA_Type_Approval_Policy_v4_2026.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 255236,
+    "sha256": "7443a87f419ef7b99e0af3f7d58e7917667836137f426d6912c19f146c9c2fb5",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "dubai_ai_ethics": {
+    "title": "Dubai AI Ethics Principles and Guidelines",
+    "url": "https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf",
+    "file": "UAE/Dubai_AI_Ethics_Guidelines.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 296088,
+    "sha256": "ea7a80d45a3d698d9f0eef98fc99b7aa735a0b081154758b1ff567c7c83c6a3e",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "uae_cybersecurity_strategy_2019": {
+    "title": "UAE National Cybersecurity Strategy 2019 (summary page)",
+    "url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/strategies-plans-and-visions-untill-2021/national-cybersecurity-strategy-2019",
+    "file": "UAE/UAE_National_Cybersecurity_Strategy_2019.html",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 69802,
+    "sha256": "5badd6b5fe73af57670ff09424cd98123b16eb22fb9dfa9cd410c437a068021d",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "eu_ai_act_2024": {
+    "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+    "file": "Global/EU_AI_Act_2024_1689.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 2583319,
+    "sha256": "bba630444b3278e881066774002a1d7824308934f49ccfa203e65be43692f55e",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "eu_machinery_reg_2023": {
+    "title": "Regulation (EU) 2023/1230 on machinery",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1230",
+    "file": "Global/EU_Machinery_Regulation_2023_1230.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1161338,
+    "sha256": "e8e3b3ea69f17967970035e3bb24a709c99c20df18eff3efcc72945667a5b637",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "eu_pld_2024": {
+    "title": "Directive (EU) 2024/2853 on liability for defective products",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402853",
+    "file": "Global/EU_Product_Liability_Directive_2024_2853.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1159564,
+    "sha256": "86982bf66ec10cce529fa5030096422a35cb9c88beb855c3129389dcb4562057",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "who_ai_health_2021": {
+    "title": "WHO, Ethics and Governance of Artificial Intelligence for Health (2021)",
+    "url": "https://iris.who.int/bitstream/handle/10665/341996/9789240029200-eng.pdf",
+    "file": "Global/WHO_Ethics_Governance_AI_Health_2021.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1969366,
+    "sha256": "dc5697ab8ba83b0ab42232da6e85f1dd41eb4fab9d112deaedfa97458a8cdfb1",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "who_lmm_2024": {
+    "title": "WHO, Ethics and Governance of AI for Health, Guidance on Large Multi-Modal Models (2024)",
+    "url": "https://iris.who.int/bitstream/handle/10665/375579/9789240084759-eng.pdf",
+    "file": "Global/WHO_LMM_Guidance_2024.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1219926,
+    "sha256": "b85c025219cc483f1e05427290660f7c6cffc7830bf2e9f5af46e4045e011d41",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "fda_pccp_2024": {
+    "title": "US FDA, Marketing Submission Recommendations for a Predetermined Change Control Plan for AI-Enabled Device Software Functions (final guidance issued 4 Dec 2024, reissued 18 Aug 2025)",
+    "url": "https://www.fda.gov/media/166704/download",
+    "file": "Global/US_FDA_PCCP_Guidance_2024.pdf",
+    "status": "pending",
+    "error": "HTTPError: HTTP Error 401: Unauthorized",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "japan_care_tech_priorities_2024": {
+    "title": "METI and MHLW, Priority Fields in the Use of Technologies for Long-term Care (revised June 2024; formerly Priority Fields in the Use of Robot Technology for Long-term Care)",
+    "url": "https://www.meti.go.jp/english/press/2024/0628_004.html",
+    "file": "Global/Japan_Care_Technology_Priority_Fields_2024.html",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 10279,
+    "sha256": "0e33d9b19d5587b012a24f3f3d8df43ad428ff162c45672dd5c438084d73bee9",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "un_crpd": {
+    "title": "UN Convention on the Rights of Persons with Disabilities (CRPD), incl. Art. 12",
+    "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities",
+    "file": "Global/UN_CRPD.html",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 107914,
+    "sha256": "331f4762aed6486c333681e9ad87edb4178c55f72ceb8c0e158be35ba7ce7261",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "uk_mca_2005": {
+    "title": "UK Mental Capacity Act 2005",
+    "url": "https://www.legislation.gov.uk/ukpga/2005/9/pdfs/ukpga_20050009_en.pdf",
+    "file": "Global/UK_Mental_Capacity_Act_2005.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 400333,
+    "sha256": "48d4bcfb5792b79acebe342de6754d82b2cc10f3cfad69886531cb28923a8d08",
+    "checked_at": "2026-11-08T23:14:01+00:00"
+  },
+  "iso_13482": {
+    "title": "ISO 13482:2014 Robots and robotic devices, Safety requirements for personal care robots",
+    "url": "https://www.iso.org/standard/53820.html",
+    "file": "Global/ISO_13482_catalogue_page.html",
+    "status": "paywalled",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "checked_at": "2026-11-08T23:14:02+00:00"
+  },
+  "iso_iec_42001": {
+    "title": "ISO/IEC 42001:2023 Information technology, Artificial intelligence, Management system",
+    "url": "https://www.iso.org/standard/81230.html",
+    "file": "Global/ISO_IEC_42001_catalogue_page.html",
+    "status": "paywalled",
+    "error": "HTTPError: HTTP Error 403: Forbidden",
+    "checked_at": "2026-11-08T23:14:02+00:00"
+  },
+  "itu_t_y3172": {
+    "title": "ITU-T Y.3172 (06/2019) Architectural framework for machine learning in future networks including IMT-2020",
+    "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-Y.3172-201906-I!!PDF-E&type=items",
+    "file": "ITU/ITU-T_Y.3172_2019.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1145173,
+    "sha256": "e42f9a3be3f951d3e19b9007f876f0b389c81b4693f0d8576e18185a1acfe67b",
+    "checked_at": "2026-11-08T23:14:02+00:00"
+  },
+  "itu_ai_ready_framework": {
+    "title": "ITU AI Ready Framework (2025), as shipped in the ITU AI Readiness reference repository",
+    "url": "https://github.com/CrashingGuru/ITUAIReadiness/tree/main/simulation/server/knowledge/InputDocs/AI_Strategies",
+    "file": "ITU/AI_Ready_Framework_2025.pdf",
+    "status": "fetched",
+    "note": "already present",
+    "bytes": 1109667,
+    "sha256": "71191768d46b60778c15f8d62b162aff73a319785cfc31ebf76bb944b0c68273",
+    "checked_at": "2026-11-08T23:14:02+00:00"
+  }
+}

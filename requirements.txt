@@ -1,0 +1,6 @@
+# core (fallback path, no GPU)
+pyyaml>=6.0
+pymupdf>=1.24
+# optional: ITU-reference-compatible vector KB and local LLM
+chromadb>=0.5.0
+ollama>=0.4.0

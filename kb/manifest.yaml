@@ -1,0 +1,268 @@
+# CareGuard knowledge base manifest.
+# Each entry: id, title, jurisdiction, authority, year, type, url, file (local path under kb/InputDocs, if fetched).
+# status is filled in by kb/fetch_docs.py (fetched | pending | paywalled).
+documents:
+  # ---------------- UAE ----------------
+  - id: uae_ai_strategy_2031
+    title: UAE National Strategy for Artificial Intelligence 2031
+    jurisdiction: UAE (federal)
+    authority: UAE AI Office
+    year: 2018
+    type: national_strategy
+    url: https://ai.gov.ae/wp-content/uploads/2021/07/UAE-National-Strategy-for-Artificial-Intelligence-2031.pdf
+    file: UAE/UAE_National_AI_Strategy_2031.pdf
+  - id: uae_ai_charter_2024
+    title: The UAE Charter for the Development and Use of Artificial Intelligence
+    jurisdiction: UAE (federal)
+    authority: UAE AI Office
+    year: 2024
+    type: policy_document
+    url: https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-Jul-EN.pdf
+    alt_url: https://uaelegislation.gov.ae/en/policy/details/the-uae-charter-for-the-development-and-use-of-artificial-intelligence
+    file: UAE/UAE_AI_Charter_2024.pdf
+  - id: uae_smart_health_ai_policy_2026
+    title: National Policy for the Promotion of Smart Health Services and Artificial Intelligence in the UAE Health Sector
+    jurisdiction: UAE (federal)
+    authority: Ministry of Health and Prevention (MOHAP)
+    year: 2026
+    type: policy_document
+    url: https://uaelegislation.gov.ae/en/policy/details/national-policy-for-the-promotion-of-smart-health-services-and-artificial-intelligence-in-the-uae-health-sector
+    file: UAE/UAE_Smart_Health_AI_Policy_2026.html
+  - id: uae_pdpl_2021
+    title: Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (PDPL)
+    jurisdiction: UAE (federal)
+    authority: UAE Data Office
+    year: 2021
+    type: legislation
+    url: https://uaelegislation.gov.ae/en/legislations/1972/download
+    file: UAE/UAE_PDPL_Decree_Law_45_2021.pdf
+    mirror_url: https://vdpo.org/laws/uae/federal-decree.pdf  # third-party copy of the official English text
+  - id: uae_ict_health_law_2019
+    title: Federal Law No. 2 of 2019 Concerning the Use of ICT in Health Fields
+    jurisdiction: UAE (federal)
+    authority: MOHAP
+    year: 2019
+    type: legislation
+    url: https://uaelegislation.gov.ae/en/legislations/1209/download
+    file: UAE/UAE_ICT_Health_Law_2_2019.pdf
+    mirror_url: https://mohap.gov.ae/documents/20117/1421791/PHP-LAW-EN-77.pdf/e9b4190b-f9a7-bbff-0834-6255af3b17c8?t=1739453134704
+    mirror_url_2: https://www.isahd.ae/content/docs/Federal%20Law%20No.%20(2)%20of%202019,%20Concerning%20the%20Use%20of%20the%20Information%20and%20Communications%20Technology%20in%20Health%20Fields.pdf  # copy of the uaelegislation.gov.ae English text
+  - id: doh_ai_policy_2018
+    title: Policy on Use of Artificial Intelligence in the Healthcare Sector of the Emirate of Abu Dhabi
+    jurisdiction: Abu Dhabi
+    authority: Department of Health Abu Dhabi (DoH)
+    year: 2018
+    type: policy_document
+    url: https://www.doh.gov.ae/-/media/E9C1470A575146B18015DEBE57E47F8D.ashx
+    file: UAE/DoH_AI_Policy_2018.pdf
+  - id: doh_rai_standard_2025
+    title: DoH Responsible Artificial Intelligence (AI) Standard, DoH/ST/DDGO/RAI/V1/2025
+    jurisdiction: Abu Dhabi
+    authority: DoH
+    year: 2025
+    type: standard
+    url: https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2025/Responsible-AI-Standard-V1.ashx
+    file: UAE/DoH_Responsible_AI_Standard_2025.pdf
+  - id: doh_rai_rmp_2025
+    title: DoH Responsible AI Risk Management Protocol, DoH/Protocol/DDGO/RALRM/V1/2025
+    jurisdiction: Abu Dhabi
+    authority: DoH
+    year: 2025
+    type: protocol
+    url: https://www.doh.gov.ae/-/media/8BD7C5DEC5974781B4C11BA00964B6F7.ashx
+    file: UAE/DoH_Responsible_AI_Risk_Management_Protocol_2025.pdf
+  - id: dha_ai_policy_2021
+    title: DHA Policy for Use of Artificial Intelligence in the Healthcare in the Emirate of Dubai (DHA/HISHD/PP-09)
+    jurisdiction: Dubai
+    authority: Dubai Health Authority (DHA)
+    year: 2021
+    type: policy_document
+    url: https://dha.gov.ae/uploads/082022/Artificial%20Intelligence%20Policy20228457.pdf
+    file: UAE/DHA_AI_Policy_2021.pdf
+  - id: dha_telehealth_v4_2025
+    title: DHA Standards for Telehealth Services, Version 4 (DHA/HRS/HPSD/ST-14)
+    jurisdiction: Dubai
+    authority: DHA
+    year: 2025
+    type: standard
+    url: https://www.dha.gov.ae/uploads/012023/Standards%20for%20Telehealth%20Services2023158613.pdf
+    file: UAE/DHA_Telehealth_Standards_v4_2025.pdf
+  - id: adhics_v2_2024
+    title: Abu Dhabi Healthcare Information and Cyber Security Standard (ADHICS) V2
+    jurisdiction: Abu Dhabi
+    authority: DoH
+    year: 2024
+    type: standard
+    url: https://www.doh.gov.ae/-/media/Feature/Resources/Standards/ADHICS-v2-standard.ashx
+    file: UAE/ADHICS_v2_2024.pdf
+  - id: uae_medical_products_law_2024
+    title: Federal Decree-Law No. 38 of 2024 Governing Medical Products, Pharmacists and Pharmaceutical Establishments
+    jurisdiction: UAE (federal)
+    authority: Emirates Drug Establishment (EDE) / MOHAP
+    year: 2024
+    type: legislation
+    url: https://uaelegislation.gov.ae/en/legislations/2751/download
+    file: UAE/UAE_Medical_Products_Decree_Law_38_2024.pdf
+    mirror_url: https://faolex.fao.org/docs/pdf/uae240011E.pdf
+  - id: uae_ede_establishment_2023
+    title: Federal Decree-Law No. 28 of 2023 Establishing the Emirates Drug Establishment
+    jurisdiction: UAE (federal)
+    authority: EDE
+    year: 2023
+    type: legislation
+    url: https://uaelegislation.gov.ae/en/legislations/2122/download
+    file: UAE/UAE_EDE_Decree_Law_28_2023.pdf
+  - id: uae_senior_emiratis_law_2019
+    title: Federal Law No. 9 of 2019 on the Rights of Senior Emiratis
+    jurisdiction: UAE (federal)
+    authority: Ministry of Family (formerly Community Development)
+    year: 2019
+    type: legislation
+    url: https://www.uaelegislation.gov.ae/en/legislations/1481/download
+    file: UAE/UAE_Senior_Emiratis_Law_9_2019.html
+    mirror_url: https://littdb.sfo2.cdn.digitaloceanspaces.com/litt/AE/UAELegislation/family_and_community/federal_law/1481.html  # LITT archive copy of the uaelegislation.gov.ae page
+  - id: uae_pod_law_2006
+    title: Federal Law No. 29 of 2006 Concerning the Rights of Persons with Special Needs (People of Determination), as amended
+    jurisdiction: UAE (federal)
+    authority: Ministry of Family
+    year: 2006
+    type: legislation
+    url: https://www.uaelegislation.gov.ae/en/legislations/1172/download
+    file: UAE/UAE_People_of_Determination_Law_29_2006.html
+    mirror_url: https://littdb.sfo2.cdn.digitaloceanspaces.com/litt/AE/UAELegislation/family_and_community/federal_law/1172.html  # LITT archive copy of the uaelegislation.gov.ae page
+  - id: tdra_type_approval_policy_v4_2026
+    title: TDRA Policy, Type Approval Regime for Telecommunications Equipment, Version 4.0
+    jurisdiction: UAE (federal)
+    authority: Telecommunications and Digital Government Regulatory Authority (TDRA)
+    year: 2026
+    type: regulation
+    url: https://tdra.gov.ae/-/media/About/Type-approval-PDF/Type-Approval-Policy-V4-EN.ashx
+    file: UAE/TDRA_Type_Approval_Policy_v4_2026.pdf
+    mirror_url: https://tdra.gov.ae/-/media/About/regulations-and-ruling/Regulations/Type-Approval/Type-Approval-Policy-V4-EN.ashx
+  - id: dubai_ai_ethics
+    title: Dubai AI Ethics Principles and Guidelines
+    jurisdiction: Dubai
+    authority: Digital Dubai
+    year: 2019
+    type: guideline
+    url: https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf
+    file: UAE/Dubai_AI_Ethics_Guidelines.pdf
+  - id: uae_cybersecurity_strategy_2019
+    title: UAE National Cybersecurity Strategy 2019 (summary page)
+    jurisdiction: UAE (federal)
+    authority: TDRA
+    year: 2019
+    type: national_strategy
+    url: https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/strategies-plans-and-visions-untill-2021/national-cybersecurity-strategy-2019
+    file: UAE/UAE_National_Cybersecurity_Strategy_2019.html
+  # ---------------- Global ----------------
+  - id: eu_ai_act_2024
+    title: Regulation (EU) 2024/1689 (Artificial Intelligence Act)
+    jurisdiction: European Union
+    authority: European Parliament and Council
+    year: 2024
+    type: legislation
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689
+    file: Global/EU_AI_Act_2024_1689.pdf
+  - id: eu_machinery_reg_2023
+    title: Regulation (EU) 2023/1230 on machinery
+    jurisdiction: European Union
+    authority: European Parliament and Council
+    year: 2023
+    type: legislation
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1230
+    file: Global/EU_Machinery_Regulation_2023_1230.pdf
+  - id: eu_pld_2024
+    title: Directive (EU) 2024/2853 on liability for defective products
+    jurisdiction: European Union
+    authority: European Parliament and Council
+    year: 2024
+    type: legislation
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402853
+    file: Global/EU_Product_Liability_Directive_2024_2853.pdf
+  - id: who_ai_health_2021
+    title: WHO, Ethics and Governance of Artificial Intelligence for Health (2021)
+    jurisdiction: Global
+    authority: World Health Organization
+    year: 2021
+    type: international_org_report
+    url: https://iris.who.int/bitstream/handle/10665/341996/9789240029200-eng.pdf
+    file: Global/WHO_Ethics_Governance_AI_Health_2021.pdf
+    mirror_url: https://iris.who.int/server/api/core/bitstreams/f780d926-4ae3-42ce-a6d6-e898a5562621/content
+  - id: who_lmm_2024
+    title: WHO, Ethics and Governance of AI for Health, Guidance on Large Multi-Modal Models (2024)
+    jurisdiction: Global
+    authority: World Health Organization
+    year: 2024
+    type: international_org_report
+    url: https://iris.who.int/bitstream/handle/10665/375579/9789240084759-eng.pdf
+    file: Global/WHO_LMM_Guidance_2024.pdf
+    mirror_url: https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content
+  - id: fda_pccp_2024
+    title: US FDA, Marketing Submission Recommendations for a Predetermined Change Control Plan for AI-Enabled Device Software Functions (final guidance issued 4 Dec 2024, reissued 18 Aug 2025)
+    jurisdiction: United States
+    authority: US Food and Drug Administration
+    year: 2024
+    type: guidance
+    url: https://www.fda.gov/media/166704/download
+    file: Global/US_FDA_PCCP_Guidance_2024.pdf
+  - id: japan_care_tech_priorities_2024
+    title: METI and MHLW, Priority Fields in the Use of Technologies for Long-term Care (revised June 2024; formerly Priority Fields in the Use of Robot Technology for Long-term Care)
+    jurisdiction: Japan
+    authority: METI and MHLW
+    year: 2024
+    type: policy_document
+    url: https://www.meti.go.jp/english/press/2024/0628_004.html
+    file: Global/Japan_Care_Technology_Priority_Fields_2024.html
+  - id: un_crpd
+    title: UN Convention on the Rights of Persons with Disabilities (CRPD), incl. Art. 12
+    jurisdiction: Global
+    authority: United Nations
+    year: 2006
+    type: treaty
+    url: https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities
+    file: Global/UN_CRPD.html
+    mirror_url: https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd
+  - id: uk_mca_2005
+    title: UK Mental Capacity Act 2005
+    jurisdiction: United Kingdom
+    authority: UK Parliament
+    year: 2005
+    type: legislation
+    url: https://www.legislation.gov.uk/ukpga/2005/9/pdfs/ukpga_20050009_en.pdf
+    file: Global/UK_Mental_Capacity_Act_2005.pdf
+  - id: iso_13482
+    title: ISO 13482:2014 Robots and robotic devices, Safety requirements for personal care robots
+    jurisdiction: Global
+    authority: ISO
+    year: 2014
+    type: standard
+    url: https://www.iso.org/standard/53820.html
+    file: Global/ISO_13482_catalogue_page.html
+    note: Full text is paywalled; only the public catalogue page is ingested.
+  - id: iso_iec_42001
+    title: ISO/IEC 42001:2023 Information technology, Artificial intelligence, Management system
+    jurisdiction: Global
+    authority: ISO/IEC
+    year: 2023
+    type: standard
+    url: https://www.iso.org/standard/81230.html
+    file: Global/ISO_IEC_42001_catalogue_page.html
+    note: Full text is paywalled; only the public catalogue page is ingested.
+  # ---------------- ITU ----------------
+  - id: itu_t_y3172
+    title: ITU-T Y.3172 (06/2019) Architectural framework for machine learning in future networks including IMT-2020
+    jurisdiction: Global
+    authority: ITU-T
+    year: 2019
+    type: standards_document
+    url: https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-Y.3172-201906-I!!PDF-E&type=items
+    file: ITU/ITU-T_Y.3172_2019.pdf
+  - id: itu_ai_ready_framework
+    title: ITU AI Ready Framework (2025), as shipped in the ITU AI Readiness reference repository
+    jurisdiction: Global
+    authority: ITU
+    year: 2025
+    type: international_org_report
+    url: https://github.com/CrashingGuru/ITUAIReadiness/tree/main/simulation/server/knowledge/InputDocs/AI_Strategies
+    file: ITU/AI_Ready_Framework_2025.pdf

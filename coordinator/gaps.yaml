@@ -1,0 +1,29 @@
+# Domain-level policy / standards gaps CareGuard can surface (healthcare: AI-assisted elderly home care).
+G1:
+  title: No classification pathway for low-risk assistive (non-clinical) robots in the home
+  global_example: EU AI Act links high-risk status to sectoral product law (Machinery Regulation 2023/1230); ISO 13482 sets safety requirements for personal care robots; Japan's METI/MHLW priority fields steer development of care robots and technologies.
+  recommendation: A risk-tiered category for home assistive robots with a referenced safety standard.
+G2:
+  title: Health-AI rules are facility-centric; family-run home deployments have no named accountable deployer
+  global_example: WHO (2021) assigns responsibilities across developers, providers and users of AI for health.
+  recommendation: Name an accountable deployer (or vendor duty) for consumer home-care AI, incl. incident reporting.
+G3:
+  title: No rule for sharing liability when several AI components each partly fail
+  global_example: EU Product Liability Directive (EU) 2024/2853 treats software, including AI systems and updates, as a product.
+  recommendation: Guidance on apportioning liability across robot, wearable model and cloud service providers.
+G4:
+  title: Unclear status of foundation-model / cloud ASR processing of health speech (are transcripts and embeddings health data?)
+  global_example: WHO guidance on large multi-modal models (2024); EU AI Act obligations for general-purpose AI model providers.
+  recommendation: Clarify that derived transcripts, embeddings and model outputs about health are health data for localisation purposes.
+G5:
+  title: No operational standard for AI systems resolving senior-versus-family consent conflicts under declining capacity
+  global_example: UN CRPD Art. 12 (equal recognition before the law, supported decision-making); UK Mental Capacity Act 2005 (best interests, least restrictive option).
+  recommendation: Supported decision-making rules for AI care systems, incl. least-intrusive defaults and human review.
+G6:
+  title: Approvals assume a fixed model; no change-control pathway for continuously learning robots and wearables
+  global_example: US FDA final guidance on Predetermined Change Control Plans for AI-enabled device software functions (Dec 2024); EU AI Act "substantial modification".
+  recommendation: A predetermined change-control mechanism for AI in home-care devices.
+G7:
+  title: No common audit-trace schema for policy-grounded agents (inputs, retrieved sources, reasoning, decision)
+  global_example: EU AI Act Art. 12 record-keeping (automatic logging of events); ITU-T Y.3172 node names give a shared vocabulary.
+  recommendation: Candidate ITU-T contribution, a minimal audit-trace format for policy-grounded agents keyed to Y.3172 nodes.

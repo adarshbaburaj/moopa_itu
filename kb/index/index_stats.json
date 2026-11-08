@@ -1,0 +1,188 @@
+[
+  {
+    "doc_id": "uae_ai_strategy_2031",
+    "status": "indexed",
+    "pages": 25,
+    "chunks": 59
+  },
+  {
+    "doc_id": "uae_ai_charter_2024",
+    "status": "indexed",
+    "pages": 6,
+    "chunks": 4
+  },
+  {
+    "doc_id": "uae_smart_health_ai_policy_2026",
+    "status": "missing",
+    "pages": 0,
+    "chunks": 0
+  },
+  {
+    "doc_id": "uae_pdpl_2021",
+    "status": "indexed",
+    "pages": 29,
+    "chunks": 38
+  },
+  {
+    "doc_id": "uae_ict_health_law_2019",
+    "status": "indexed",
+    "pages": 15,
+    "chunks": 17
+  },
+  {
+    "doc_id": "doh_ai_policy_2018",
+    "status": "indexed",
+    "pages": 11,
+    "chunks": 15
+  },
+  {
+    "doc_id": "doh_rai_standard_2025",
+    "status": "indexed",
+    "pages": 15,
+    "chunks": 26
+  },
+  {
+    "doc_id": "doh_rai_rmp_2025",
+    "status": "indexed",
+    "pages": 12,
+    "chunks": 18
+  },
+  {
+    "doc_id": "dha_ai_policy_2021",
+    "status": "indexed",
+    "pages": 17,
+    "chunks": 19
+  },
+  {
+    "doc_id": "dha_telehealth_v4_2025",
+    "status": "indexed",
+    "pages": 94,
+    "chunks": 100
+  },
+  {
+    "doc_id": "adhics_v2_2024",
+    "status": "indexed",
+    "pages": 137,
+    "chunks": 159
+  },
+  {
+    "doc_id": "uae_medical_products_law_2024",
+    "status": "indexed",
+    "pages": 135,
+    "chunks": 241
+  },
+  {
+    "doc_id": "uae_ede_establishment_2023",
+    "status": "missing",
+    "pages": 0,
+    "chunks": 0
+  },
+  {
+    "doc_id": "uae_senior_emiratis_law_2019",
+    "status": "indexed",
+    "pages": 6,
+    "chunks": 16
+  },
+  {
+    "doc_id": "uae_pod_law_2006",
+    "status": "indexed",
+    "pages": 6,
+    "chunks": 16
+  },
+  {
+    "doc_id": "tdra_type_approval_policy_v4_2026",
+    "status": "indexed",
+    "pages": 20,
+    "chunks": 35
+  },
+  {
+    "doc_id": "dubai_ai_ethics",
+    "status": "indexed",
+    "pages": 35,
+    "chunks": 41
+  },
+  {
+    "doc_id": "uae_cybersecurity_strategy_2019",
+    "status": "indexed",
+    "pages": 1,
+    "chunks": 3
+  },
+  {
+    "doc_id": "eu_ai_act_2024",
+    "status": "indexed",
+    "pages": 144,
+    "chunks": 456
+  },
+  {
+    "doc_id": "eu_machinery_reg_2023",
+    "status": "indexed",
+    "pages": 102,
+    "chunks": 281
+  },
+  {
+    "doc_id": "eu_pld_2024",
+    "status": "indexed",
+    "pages": 22,
+    "chunks": 70
+  },
+  {
+    "doc_id": "who_ai_health_2021",
+    "status": "indexed",
+    "pages": 165,
+    "chunks": 366
+  },
+  {
+    "doc_id": "who_lmm_2024",
+    "status": "indexed",
+    "pages": 98,
+    "chunks": 198
+  },
+  {
+    "doc_id": "fda_pccp_2024",
+    "status": "missing",
+    "pages": 0,
+    "chunks": 0
+  },
+  {
+    "doc_id": "japan_care_tech_priorities_2024",
+    "status": "indexed",
+    "pages": 1,
+    "chunks": 3
+  },
+  {
+    "doc_id": "un_crpd",
+    "status": "indexed",
+    "pages": 3,
+    "chunks": 8
+  },
+  {
+    "doc_id": "uk_mca_2005",
+    "status": "indexed",
+    "pages": 92,
+    "chunks": 186
+  },
+  {
+    "doc_id": "iso_13482",
+    "status": "missing",
+    "pages": 0,
+    "chunks": 0
+  },
+  {
+    "doc_id": "iso_iec_42001",
+    "status": "missing",
+    "pages": 0,
+    "chunks": 0
+  },
+  {
+    "doc_id": "itu_t_y3172",
+    "status": "indexed",
+    "pages": 34,
+    "chunks": 58
+  },
+  {
+    "doc_id": "itu_ai_ready_framework",
+    "status": "indexed",
+    "pages": 55,
+    "chunks": 96
+  }
+]

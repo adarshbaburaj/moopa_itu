@@ -1,0 +1,41 @@
+id: B_voice_offshore
+title: Voice data leaves the country (privacy and localisation)
+context: >
+  Same household. The wearable vendor pushes an over-the-air update. Senior's clinic receives daily voice-derived
+  summaries through a clinic portal.
+events:
+  - t: "T+0"
+    release_to: [telecom_regulator]
+    channel: device_management
+    text: OTA update v2.3 switches the wearable's speech recognition from the on-device model to a cheaper overseas cloud API.
+    facts: [ota_update, connected_device, cloud_asr_offshore, model_update]
+  - t: "T+1 day"
+    release_to: [data_protection]
+    channel: audit_log
+    text: The audit log shows raw audio clips, including health complaints ("my chest hurts"), sent to servers outside the UAE.
+    facts: [cloud_asr_offshore, health_data, audit_log_evidence]
+  - t: "T+2 days"
+    release_to: [health_regulator]
+    channel: clinic_portal
+    text: The clinic portal is receiving transcripts derived from that overseas service.
+    facts: [clinic_receives_transcripts, health_data]
+  - t: "T+2 days"
+    release_to: [care_agent, policy_adviser]
+    channel: coordinator
+    text: Coordinator shares the findings with the Care Agent and the Policy Adviser and asks for remediation.
+    facts: [cloud_asr_offshore, health_data, model_update]
+  - t: "T+3 days"
+    release_to: [policy_adviser]
+    channel: coordinator
+    text: Coordinator asks for the audit summary and any standards gap in how this incident was logged.
+    facts: [audit_requested]
+expected:
+  rules: [TR1_type_approval, TR2_ota_scope, DP1_cross_border_sensitive, DP2_breach_notification, HR3_clinic_transcripts,
+          CA4_fallback_to_on_device_asr, PA4_health_data_localisation, PA5_pdpl_health_carveout, PA7_continuous_learning,
+          PA8_audit_trace_standard]
+  citations:
+    PA4_health_data_localisation: uae_ict_health_law_2019
+    PA5_pdpl_health_carveout: uae_pdpl_2021
+    DP1_cross_border_sensitive: uae_pdpl_2021
+    TR1_type_approval: tdra_type_approval_policy_v4_2026
+  gaps: [G4, G6, G7]
