@@ -65,6 +65,7 @@ kb/ingest_chroma.py       ITU-compatible ChromaDB ingest; kb/ingest.sh wraps all
 agents/                   care_agent.py, policy_adviser.py, institutional/{health,dpa,telecom,medprod,social}.py
 coordinator/run_scenario.py   scenario runner + JSONL audit trace + timeline; gap_report.py; gaps.yaml
 scenarios/                A_dropped_meds.yaml, B_voice_offshore.yaml, C_consent.yaml
+docs/                     Y.3172 pipeline diagram and the technical report (PDF)
 logs/                     real traces from the committed runs (*.jsonl) and readable timelines (*_timeline.md)
 reports/gap_report.md     generated from logs/
 ```
