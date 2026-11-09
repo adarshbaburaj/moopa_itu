@@ -1,7 +1,7 @@
 # CareGuard: policy-grounded agents for AI-assisted elderly home care
 
 Team **Moopa** · ITU AI for Good Lab Hackathon, UAE (2026) · healthcare domain, cross-domain with telecom and social care.
-Team leader: Adarsh Baburaj (adarshbaburaj8@gmail.com).
+Team leader: Adarsh Baburaj (adarshbaburaj8@gmail.com). Repository: https://github.com/adarshbaburaj/moopa_itu
 
 CareGuard sits on top of a home-care deployment (the **Moopa** voice-first wearable, the **THUMBI** low-cost assistive
 robot arm and a family/clinic app) and makes it policy-aware. It combines:
