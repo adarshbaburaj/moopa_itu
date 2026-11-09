@@ -9,7 +9,24 @@
     <meta property="og:url" content="https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/strategies-plans-and-visions-untill-2021/national-cybersecurity-strategy-2019" />
     <meta property="og:image" />
     <meta property="og:description" content="" />
-    
+    <script>
+        // Immediately invoke the function before the page fully loads
+        (function () {
+            var currentUrl = window.location.href;
+
+            // Extract the pathname and check for a trailing slash
+            var pathname = window.location.pathname;
+
+            // Check if the pathname is not just "/" (indicating the base URL) and ends with a slash
+            if (pathname.length > 1 && pathname.endsWith('/')) {
+                // Remove the trailing slash from the pathname
+                var newUrl = currentUrl.slice(0, -1);
+
+                // Redirect to the new URL without the trailing slash
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
 
 
     <meta charset="UTF-8">
@@ -22,11 +39,11 @@
     <link rel="icon" type="/image/x-icon" href="/favicon.ico">
     <link href="/vendor/intltelinput/css/iti-input.css" rel="stylesheet" />
 
-    
-    
-    
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery.bootpag.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
     <sc-editing-context></sc-editing-context>
-    <meta name="VIcurrentDateTime" content="639297755502068367>"/><meta name="VirtualFolder" content="\"/>
+    <meta name="VIcurrentDateTime" content="639297755502068367>"/><meta name="VirtualFolder" content="\"/><script type='text/javascript' src='/layouts/system/VisitorIdentification.js'></script>
 </head>
 <body data-s="0">
     <div id="root" class="position-relative">
@@ -55,7 +72,25 @@
         </li>
 </ul>
 
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const langBtn = document.getElementById("langBTN");
+        if (!langBtn) return;
+ 
+        langBtn.addEventListener("click", async function (e) {
+           
+ 
+            const targetLang = langBtn.getAttribute("data-lang");
+ 
+            const response = await fetch(`/api/localization/set-language?culture=${targetLang}`, {
+                    method: 'GET',
+                    credentials: 'include' // Important: send cookies
+                });
+ 
+          
+        });
+    });
+</script>
                 <button type="button" class="menu-button languageModalButton" aria-haspopup="dialog" aria-controls="language-modal-web" aria-expanded="false" aria-label="Translate this page">
                     <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18"
                          fill="none">
@@ -107,7 +142,16 @@
             <img src="/image/uae-pass-en.svg" alt="UAE PASS Logo" class="uae-pass-btn" />
     </a>
 
+<script>
+    const hasToken = document.cookie.includes("UaePass_Token");
+    const url = new URL(window.location.href);
+    const hasRefreshed = window.location.search.includes("refreshed=true");
 
+    if (hasRefreshed) {
+        url.searchParams.delete("refreshed");
+        window.location.href = url.toString();
+    }
+</script>
 
             </div>
             <div class="d-flex align-items-center d-md-none">
@@ -119,7 +163,16 @@
             <img src="/image/uae-pass-en.svg" alt="UAE PASS Logo" class="uae-pass-btn" />
     </a>
 
+<script>
+    const hasToken = document.cookie.includes("UaePass_Token");
+    const url = new URL(window.location.href);
+    const hasRefreshed = window.location.search.includes("refreshed=true");
 
+    if (hasRefreshed) {
+        url.searchParams.delete("refreshed");
+        window.location.href = url.toString();
+    }
+</script>
 
                 <button class="mobile-icon m-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open main menu">
                     <img src="/image/icons/mobile-icons/menu.svg" alt="Menu icon">
@@ -146,7 +199,16 @@
             <img src="/image/uae-pass-en.svg" alt="UAE PASS Logo" class="uae-pass-btn" />
     </a>
 
+<script>
+    const hasToken = document.cookie.includes("UaePass_Token");
+    const url = new URL(window.location.href);
+    const hasRefreshed = window.location.search.includes("refreshed=true");
 
+    if (hasRefreshed) {
+        url.searchParams.delete("refreshed");
+        window.location.href = url.toString();
+    }
+</script>
 
                     </div>
                     <div class="offcanvas-footer">
@@ -164,7 +226,25 @@
         </li>
 </ul>
 
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const langBtn = document.getElementById("langBTN");
+        if (!langBtn) return;
+ 
+        langBtn.addEventListener("click", async function (e) {
+           
+ 
+            const targetLang = langBtn.getAttribute("data-lang");
+ 
+            const response = await fetch(`/api/localization/set-language?culture=${targetLang}`, {
+                    method: 'GET',
+                    credentials: 'include' // Important: send cookies
+                });
+ 
+          
+        });
+    });
+</script>
                         <div class="d-flex">
                             <button type="button" class="menu-button languageModalButton" aria-haspopup="dialog" aria-controls="language-modal-mobile" aria-expanded="false" aria-label="Translate this page">
                                 <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18"
@@ -292,11 +372,171 @@
 </div>
 
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const viewResultsBtn = document.querySelector('.viewAllResult');
+        viewResultsBtn.addEventListener('click', () => {
+            var query = $('#autoComplete').val();
+            var searchUrl = '/en/search-result?q=';
+            window.location.href = searchUrl + query;
+        });
 
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const searchBtn = document.querySelector('#autoComplete');
+        searchBtn.addEventListener('keydown', () => {
+            if (event.key === 'Enter') {
+                var query = $('#autoComplete').val();
+                var searchUrl = '/en/search-result?q=';
+                window.location.href = searchUrl + query;
+            }
+        });
+
+    });
+
+    $(document).ready(function () {
+        // $('.viewAllResults').on('click', function () {
+        //     var query = $('#autoComplete').val();
+        //     var searchUrl = '/en/search-result?q=';
+        //     window.location.href = searchUrl + query;
+        // });
+
+        function boldStr(needle, haystack) {
+            var regex = new RegExp(needle, 'i');
+            return haystack.replace(regex, "<strong>" + needle + "</strong>");
+        }
+
+        function loadResults(searchQuery) {
+            debugger;
+            var jsdata = '?searchQuery=' + searchQuery;
+            $.ajax({
+                type: "GET",
+                url: '/SitecoreSearch/UAEGovernmentSearchItemsJSON' + jsdata,
+                dataType: "json",
+                success: function (data, status) {
+                    $('#sliderResults').html(data.val);
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(thrownError);
+                }
+            });
+
+        }
+
+        $('#autoComplete')
+            .autocomplete({
+                minLength: 0,
+                source: function (request, response) {
+                    var query = $('#autoComplete').val();
+                    var requestData = {
+                        "context": {
+                            "locale": {
+                                "language": "en",
+                                "country": "us"
+                            }
+                        },
+                        "widget": {
+                            "items": [
+                                {
+                                    "entity": "content",
+                                    "rfk_id": "rfkid_7",
+                                    "search": {
+                                        "limit": 7,
+                                        "suggestion": [
+                                            {
+                                                "max": 5,
+                                                "name": "name_suggestions"
+                                            }
+                                        ],
+                                        "content": {
+                                            "fields": [
+                                                "name"
+                                            ]
+                                        },
+                                        "facet": {
+                                            "all": true
+                                        },
+                                        "sort": {
+                                            "choices": true
+                                        },
+                                        "query": {
+                                            "keyphrase": query
+                                        }
+                                    },
+                                    "sources": ["1177349"]                      }
+                            ]
+                        }
+                    };
+                    var jsData = JSON.stringify(requestData);
+                    var result = [];
+                    if (query != "") {
+                        $.ajax({
+                            type: "POST",
+                            url: 'https://discover-euc1.sitecorecloud.io/discover/v2/136620469',
+                            noLoader: true,
+                            headers: { 'authorization': 'Bearer ' + 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcGlLZXkvYTVhZmYwMzYiLCJzY29wZSI6eyIxMzY2MjA0NjkiOlsibzd0NXJyYmprMCJdfSwic3RhZ2UiOiJwcm9kIiwicmVnaW9uIjoiZXUtY2VudHJhbC0xIiwianRpIjoiNDI0NzZmZjUtZDA1ZC00ZDcyLTk0M2ItNDE0YzBiYzRkNTYyIiwiaWF0IjoxNzk0MTQ3NDI0LCJleHAiOjE3OTQyMzQ0MjR9.iszsQDfi_eY8bqqmvOij9hU87qDktUix7Day7ndVT-8' },
+                            data: jsData,
+                            dataType: "json",
+                            contentType: 'application/json; charset=utf-8',
+                            success: function (data) 
+                            {
+                                var resultList = data.widgets[0].content;
+                                $.each(resultList, function (index, value) 
+                                {
+                                    result.push(
+                                        value.name.replace(" | The Official Platform of the UAE Government", "").replace(" | المنصة الرسمية لحكومة الإمارات العربية المتحدة", "")
+                                    );
+                                });
+
+                                response(JSON.parse(JSON.stringify(result)));
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                console.log(thrownError);
+                            }
+                        });
+                    }
+                    response(JSON.parse(JSON.stringify(result)));
+
+                },
+                response: function (e, ui) {
+                    $('#autoResult').empty();
+                    const menuContainer = document.querySelector('.menu-container');
+                    const searchInput = document.querySelector('.search-input');
+                    const searchInputRect = searchInput.getBoundingClientRect();
+                    menuContainer.style.top = `${searchInputRect.height + 8}px`;
+                    menuContainer.style.display = 'block';
+                },
+                create: function () {
+                    $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
+                        var div = $('#autoResult');
+                        var searchUrl = '/en/search-result?q=';
+                        var itemURL = searchUrl + item.label;
+                        return $("<li>")
+                            .append("<a class='info-search-link' href='" + itemURL + "'>" + boldStr($("#autoComplete").val(), item.label) + "</a>")
+                            // .hover(function (e) {
+                            //     var anchor = $(e.currentTarget).children().first();
+                            //     anchor.addClass("active");
+                            //     $("#autoComplete").val(item.label)
+                            //     loadResults(item.label)
+                            // }
+                            //     , function (e) {
+                            //         var anchor = $(e.currentTarget).children().first();
+                            //         anchor.removeClass("active");
+                            //     })
+                            .appendTo(div);
+                    };
+
+                }
+            })
+    });
+
+
+</script>
         </section>
     </nav>
 </div>
-
+<script src="https://cdn.userway.org/widget.js?account=aE1O7PByYE"></script>
     <section class="head-services">
         <div class="container">
             <div class="hero-text col-md-9">
@@ -415,7 +655,7 @@
 </div>
 </div>
 
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 <div class="container">
@@ -485,7 +725,81 @@
 
 
 
+<script>
+    $(document).ready(function () {
+        var isTextAreaFeedback = false;
+        var recaptcahResponse =document.getElementById("RecaptcahResponse");
+        const form = document.querySelector("#happIndexForm");
+        // console.log("Yalla")
 
+        function submitForm(){
+            if (form.checkValidity()) {
+                 grecaptcha.execute();
+            }
+        }
+
+        
+         function ajaxCall(){
+            var data = $("#happIndexForm").serialize();
+            $.ajax({
+                type: "POST",
+                data: data,
+                dataType: "json",
+                url: '/Sharik/CreateContentHappiness',
+                success: function (result) {
+                    debugger;
+                    if(isTextAreaFeedback){
+                        isTextAreaFeedback = false;
+                        document.getElementById('feedBack-Container').style.display = 'none';
+                        document.querySelector('.thank-feed').style.display = 'block';
+                    }else{
+                        document.getElementById('feedback-container').style.display = 'none';
+                        document.querySelector('.thank-you').style.display = 'block';
+                    }
+                    grecaptcha.reset();
+                },
+                error: function (xhr, status, error) {
+                    console.error(`[${xhr.status}] ${error}: ${xhr.responseText}`);
+                    isTextAreaFeedback = false;
+                    grecaptcha.reset();
+                }
+            })
+        }
+        
+        window.onSend = function (token) {
+          // console.log("reCAPTCHA token:", token);
+          recaptcahResponse.value = token;
+          ajaxCall();
+        }
+
+        document.querySelectorAll('input[name="IndexValue"]').forEach((radio) => {
+            radio.addEventListener('change', function () {
+                this.checked = true;
+                submitForm();
+            });
+        });
+
+        document.querySelectorAll('input[id="Feedback"]').forEach((radio) => {
+            radio.addEventListener('change', function () {
+                document.getElementById('FeedbackMsg').style.display = 'none';
+                document.querySelector('.msg-container').style.display = 'block';
+            });
+        });
+
+        document.getElementById('feedBack-button').addEventListener('click', (e) => {
+            //e.preventDefault();
+            isTextAreaFeedback = true;
+            submitForm();
+        });
+        
+    });
+    
+   
+
+      
+
+
+</script>
 
 
         </main>
@@ -617,27 +931,43 @@
             </div>
         </div>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <script src="/js/bnsights.js"></script>
+        <script src="/vendor/bootstrap/js/popper.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/vendor/wow/js/wow.min.js"></script>
+        <script src="/vendor/swiperbundle/js/swiper-bundle.min.js"></script>
+        <script src="/vendor/intltelInput/js/iti-input.js"></script>
+        <script src="/js/accordion.js"></script>
+        <script src="/js/swiper.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyC6j5pU0AYyx-7Pst-9dHjq0q2JicIP7no"></script>
+        <script src="/js/map.js"></script>
+        <script type="text/javascript"
+                src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
+        <script src="/js/script.js"></script>
 
         <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSGF8J46SL"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-WSGF8J46SL');
+        </script>
         
-        
-        
-        
-        
+        <script>
+            window.intercomSettings = {
+                api_base: "https://api-iam.intercom.io",
+                app_id: "nf794pcs",
+            };
+        </script>
+        <script>
+            //We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/t1lw213b'  
+            (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/t1lw213b';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+        </script>
 
-        
+        <script async src="https://cdn.uaea11y.gov.ae/checkerscript/checker.js?key=65eeb5bcb265e23c"></script>
     </div>
 
     
